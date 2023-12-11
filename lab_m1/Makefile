@@ -39,5 +39,5 @@ re: fclean all
 .PHONY: re
 
 open:
-	open $(NAME)
+	@open $(NAME)
 .PHONY: open

@@ -1,5 +1,78 @@
-\documentclass{report}
-\begin{document} 
-First document. This is a simple example, with no 
-extra parameters or packages included.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Laboratory work M-1 in the course of "General Physics" 
+
+% Faculty & Group: Computer science and control systems / ИУ-5 13БВ
+% Author: Ilya A. Khin
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[12pt, a4paper]{article}
+\usepackage[english, russian]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{setspace}
+
+\renewcommand{\baselinestretch}{1.5} 
+
+\begin{document}
+
+\begin{titlepage}
+
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}} % Defines a new command for the horizontal lines, change thickness here
+
+\center % Center everything on the page
+
+%----------------------------------------------------------------------------------------
+%	LOGO SECTION
+%----------------------------------------------------------------------------------------
+
+\includegraphics[width=0.35\textwidth]{img/bmstu_logo.png}\\[0.5cm] % Include a department/university logo - this will require the graphicx package
+ 
+%----------------------------------------------------------------------------------------
+%	HEADING SECTIONS
+%----------------------------------------------------------------------------------------
+\textsc{\large Московский Государственный Технический Университет имени Н.Э. Баумана}\\[0.5cm]
+\textsc{\large Физика. 1-й семестр.}\\[1.5cm] % Major heading such as course name
+
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%---------------------------------------------------------------------------------------
+
+\HRule \\[0.5cm]
+{ \huge \bfseries Лабораторная работа М-1}\\
+\textsc{Обработка результатов измерений при проведении физического эксперимента}
+\HRule \\[2cm]
+ 
+%----------------------------------------------------------------------------------------
+%	AUTHOR SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}{0.4\textwidth}
+\begin{flushleft} \large
+\emph{Автор:}\\
+Щекочихин И. A.
+\end{flushleft}
+\end{minipage}
+~
+\begin{minipage}{0.4\textwidth}
+\begin{flushright} \large
+\emph{Научный руководитель:} 
+Есаков А. А.\\
+\end{flushright}
+\end{minipage}\\[3cm]
+
+%----------------------------------------------------------------------------------------
+%	DATE SECTION
+%----------------------------------------------------------------------------------------
+
+{\large \today}\\ % Date, change the \today to a set date if you want to be precise
+
+
+\vfill % Fill the rest of the page with whitespace
+
+\end{titlepage}
 \end{document}
